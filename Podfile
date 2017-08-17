@@ -8,4 +8,7 @@ target 'OneTechAsia' do
   # Pods for OneTechAsia
         pod 'SwiftyJSON'
 	pod 'Alamofire', '~> 4.4'
+	pod 'Device.swift'
+	pod 'RealmSwift'
+	pod 'ReachabilitySwift'
 end

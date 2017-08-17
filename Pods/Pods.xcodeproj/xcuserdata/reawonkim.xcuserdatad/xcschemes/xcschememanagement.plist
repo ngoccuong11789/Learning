@@ -9,7 +9,27 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Device.swift.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-OneTechAsia.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>ReachabilitySwift.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Realm.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>RealmSwift.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -22,17 +42,37 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>4BC6859E0F64B489E1C53953F74E1AA1</key>
+		<key>037FAF0781A1AB70D33B3157C6405C77</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>6F3635443AD804935C973F9FCC107DD6</key>
+		<key>3B8D424870076E0B39E16D8B5B4A964D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4D6FC29EEEE8E68BBD07228E85EE873A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>67484062F85D147A1FDA30BBFF5AEBDD</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>88E9EC28B8B46C3631E6B242B50F4442</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DC166DC7D1F459C9F136C5F2CFDF77B1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FE6D7E8A9E1070690C1C0C0476C60DFC</key>
 		<dict>
 			<key>primary</key>
 			<true/>
