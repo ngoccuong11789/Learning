@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4647E00B7B5C985E320E24C9 /* Pods_OneTechAsia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6360A6EE8559D909BD92E47 /* Pods_OneTechAsia.framework */; };
 		AE45EE421F450DE800915152 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE45EE411F450DE800915152 /* AppDelegate.swift */; };
 		AE45EE441F450DE800915152 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE45EE431F450DE800915152 /* ViewController.swift */; };
 		AE45EE471F450DE800915152 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE45EE451F450DE800915152 /* Main.storyboard */; };
 		AE45EE491F450DE800915152 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE45EE481F450DE800915152 /* Assets.xcassets */; };
 		AE45EE4C1F450DE800915152 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE45EE4A1F450DE800915152 /* LaunchScreen.storyboard */; };
+		AE45EE5A1F450F4700915152 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE45EE591F450F4700915152 /* APIManager.swift */; };
+		AE45EE5C1F4510B000915152 /* ListAds.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE45EE5B1F4510B000915152 /* ListAds.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3B725CC32DE534DBEFC10E20 /* Pods-OneTechAsia.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneTechAsia.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OneTechAsia/Pods-OneTechAsia.debug.xcconfig"; sourceTree = "<group>"; };
+		45B5273CAC1DCC8D3BC54B20 /* Pods-OneTechAsia.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneTechAsia.release.xcconfig"; path = "Pods/Target Support Files/Pods-OneTechAsia/Pods-OneTechAsia.release.xcconfig"; sourceTree = "<group>"; };
 		AE45EE3E1F450DE800915152 /* OneTechAsia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OneTechAsia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE45EE411F450DE800915152 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AE45EE431F450DE800915152 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +27,9 @@
 		AE45EE481F450DE800915152 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE45EE4B1F450DE800915152 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AE45EE4D1F450DE800915152 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE45EE591F450F4700915152 /* APIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		AE45EE5B1F4510B000915152 /* ListAds.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListAds.swift; sourceTree = "<group>"; };
+		B6360A6EE8559D909BD92E47 /* Pods_OneTechAsia.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OneTechAsia.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4647E00B7B5C985E320E24C9 /* Pods_OneTechAsia.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +49,8 @@
 			children = (
 				AE45EE401F450DE800915152 /* OneTechAsia */,
 				AE45EE3F1F450DE800915152 /* Products */,
+				E204743E8CAE39DE327DC506 /* Pods */,
+				C291BAAF595792597D89B68B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +65,65 @@
 		AE45EE401F450DE800915152 /* OneTechAsia */ = {
 			isa = PBXGroup;
 			children = (
+				AE45EE581F450F3600915152 /* Manager */,
+				AE45EE551F450F0A00915152 /* Controller */,
+				AE45EE541F450F0400915152 /* View */,
+				AE45EE531F450EFC00915152 /* Model */,
 				AE45EE411F450DE800915152 /* AppDelegate.swift */,
-				AE45EE431F450DE800915152 /* ViewController.swift */,
 				AE45EE451F450DE800915152 /* Main.storyboard */,
 				AE45EE481F450DE800915152 /* Assets.xcassets */,
 				AE45EE4A1F450DE800915152 /* LaunchScreen.storyboard */,
 				AE45EE4D1F450DE800915152 /* Info.plist */,
 			);
 			path = OneTechAsia;
+			sourceTree = "<group>";
+		};
+		AE45EE531F450EFC00915152 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AE45EE5B1F4510B000915152 /* ListAds.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		AE45EE541F450F0400915152 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		AE45EE551F450F0A00915152 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AE45EE431F450DE800915152 /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		AE45EE581F450F3600915152 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				AE45EE591F450F4700915152 /* APIManager.swift */,
+			);
+			name = Manager;
+			sourceTree = "<group>";
+		};
+		C291BAAF595792597D89B68B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B6360A6EE8559D909BD92E47 /* Pods_OneTechAsia.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E204743E8CAE39DE327DC506 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B725CC32DE534DBEFC10E20 /* Pods-OneTechAsia.debug.xcconfig */,
+				45B5273CAC1DCC8D3BC54B20 /* Pods-OneTechAsia.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +133,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AE45EE501F450DE800915152 /* Build configuration list for PBXNativeTarget "OneTechAsia" */;
 			buildPhases = (
+				D9DD6B02C05DF6A36C69D8C2 /* [CP] Check Pods Manifest.lock */,
 				AE45EE3A1F450DE800915152 /* Sources */,
 				AE45EE3B1F450DE800915152 /* Frameworks */,
 				AE45EE3C1F450DE800915152 /* Resources */,
+				F20CAFDF2577D17054093C11 /* [CP] Embed Pods Frameworks */,
+				6064605026261B1C3C7A11A2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -132,13 +197,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6064605026261B1C3C7A11A2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OneTechAsia/Pods-OneTechAsia-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9DD6B02C05DF6A36C69D8C2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F20CAFDF2577D17054093C11 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OneTechAsia/Pods-OneTechAsia-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AE45EE3A1F450DE800915152 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE45EE5A1F450F4700915152 /* APIManager.swift in Sources */,
 				AE45EE441F450DE800915152 /* ViewController.swift in Sources */,
 				AE45EE421F450DE800915152 /* AppDelegate.swift in Sources */,
+				AE45EE5C1F4510B000915152 /* ListAds.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +376,7 @@
 		};
 		AE45EE511F450DE800915152 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B725CC32DE534DBEFC10E20 /* Pods-OneTechAsia.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9M89LZG9KX;
@@ -274,6 +390,7 @@
 		};
 		AE45EE521F450DE800915152 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45B5273CAC1DCC8D3BC54B20 /* Pods-OneTechAsia.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9M89LZG9KX;
@@ -304,6 +421,7 @@
 				AE45EE521F450DE800915152 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

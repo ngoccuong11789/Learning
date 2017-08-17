@@ -7,3 +7,18 @@
 //
 
 import Foundation
+
+class ListAds {
+    
+    fileprivate var _msg: String!
+    
+    var msg: String{
+        return _msg
+    }
+    
+    init(msg: String) {
+        _msg = msg
+        
+    }
+    
+}
