@@ -7,18 +7,35 @@
 //
 
 import Foundation
+import RealmSwift
+import Realm
 
-class ListAds {
+class ListAds : Object {
+    var status_code : Int!
+    dynamic var message : String!
     
-    fileprivate var _msg: String!
-    
-    var msg: String{
-        return _msg
+    var ads = List<Ads>()
+    dynamic var id : String = "1"
+    init(code: Int, message: String, ads : List<Ads>) {
+        super.init()
+        self.status_code = code
+        self.message = message
+        self.ads = ads
     }
     
-    init(msg: String) {
-        _msg = msg
-        
+    required init() {
+        super.init()
     }
     
+    override static func primaryKey() -> String? {
+        return "id"
+    }
+    
+    required init(realm: RLMRealm, schema: RLMObjectSchema) {
+        super.init(realm: realm, schema: schema)
+    }
+    
+    required init(value: Any, schema: RLMSchema) {
+        fatalError("init(value:schema:) has not been implemented")
+    }
 }

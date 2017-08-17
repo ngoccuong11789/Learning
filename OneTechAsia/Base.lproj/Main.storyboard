@@ -1,14 +1,27 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16B2659" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="KozGoPr4.otf">
+            <string>KozGoPro-Heavy</string>
+        </array>
+        <array key="KozGoPr8.otf">
+            <string>KozGoPro-Medium</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="OneTechAsia" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -16,11 +29,110 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="sGp-bB-hdp">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Top Screen" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IhJ-Pa-6iS">
+                                <rect key="frame" x="143.5" y="62" width="87.5" height="17"/>
+                                <fontDescription key="fontDescription" name="KozGoPro-Heavy" family="Kozuka Gothic Pro" pointSize="17"/>
+                                <color key="textColor" red="0.96078431369999995" green="0.60392156860000001" blue="0.62352941179999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="footer" translatesAutoresizingMaskIntoConstraints="NO" id="9YB-5R-1th">
+                                <rect key="frame" x="0.0" y="613" width="375" height="54"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="54" id="rZL-cZ-4y9"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bb7-Me-Zkt">
+                                <rect key="frame" x="20" y="629" width="67" height="28"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="28" id="XdZ-Ct-k3M"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="KozGoPro-Heavy" family="Kozuka Gothic Pro" pointSize="17"/>
+                                <state key="normal" title="まえ" image="previousBtn"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cx6-U1-1x4">
+                                <rect key="frame" x="0.0" y="20" width="100" height="100"/>
+                                <color key="backgroundColor" red="0.96078431372549022" green="0.60392156862745094" blue="0.62352941176470589" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="LT9-hZ-hGe"/>
+                                    <constraint firstAttribute="width" secondItem="Cx6-U1-1x4" secondAttribute="height" multiplier="1:1" id="X7I-XE-m2i"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="KozGoPro-Medium" family="Kozuka Gothic Pro" pointSize="17"/>
+                                <inset key="titleEdgeInsets" minX="0.0" minY="20" maxX="20" maxY="0.0"/>
+                                <inset key="imageEdgeInsets" minX="30" minY="-40" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="もどる" image="backBtnImg"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8QT-B0-eqW">
+                                <rect key="frame" x="285" y="629" width="70" height="28"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="28" id="25c-lo-ovD"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="KozGoPro-Heavy" family="Kozuka Gothic Pro" pointSize="17"/>
+                                <inset key="titleEdgeInsets" minX="-60" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <inset key="imageEdgeInsets" minX="40" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="つぎ" image="nextBtn"/>
+                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="53V-6r-pNb">
+                                <rect key="frame" x="32.5" y="269" width="310" height="128"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SlideShow" translatesAutoresizingMaskIntoConstraints="NO" id="CYz-aa-nK9">
+                                        <rect key="frame" x="0.0" y="0.0" width="150" height="128"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="150" id="FrL-4v-IHz"/>
+                                            <constraint firstAttribute="height" constant="128" id="WKO-Mb-0Rc"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Walkthough" translatesAutoresizingMaskIntoConstraints="NO" id="kxl-XS-tQm">
+                                        <rect key="frame" x="160" y="0.0" width="150" height="128"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="150" id="gfd-N9-nV2"/>
+                                            <constraint firstAttribute="height" constant="128" id="oQM-4h-lxO"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="sGp-bB-hdp" secondAttribute="trailing" id="3Im-Xv-r26"/>
+                            <constraint firstItem="53V-6r-pNb" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="6MQ-Vy-URC"/>
+                            <constraint firstItem="bb7-Me-Zkt" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="6Sw-NB-IZH"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="bb7-Me-Zkt" secondAttribute="bottom" constant="10" id="8cX-4m-7rG"/>
+                            <constraint firstItem="Cx6-U1-1x4" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="Kcx-2k-pbD"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="9YB-5R-1th" secondAttribute="bottom" id="MVG-NL-iM7"/>
+                            <constraint firstItem="sGp-bB-hdp" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="ThS-xp-DZk"/>
+                            <constraint firstItem="sGp-bB-hdp" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="VOZ-6k-l1a"/>
+                            <constraint firstAttribute="trailing" secondItem="9YB-5R-1th" secondAttribute="trailing" id="YaW-kt-2Wh"/>
+                            <constraint firstItem="IhJ-Pa-6iS" firstAttribute="centerY" secondItem="Cx6-U1-1x4" secondAttribute="centerY" id="aqS-FW-1AF"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="sGp-bB-hdp" secondAttribute="bottom" id="cwM-7n-eAw"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="8QT-B0-eqW" secondAttribute="bottom" constant="10" id="f9C-73-Vow"/>
+                            <constraint firstAttribute="trailing" secondItem="8QT-B0-eqW" secondAttribute="trailing" constant="20" id="myA-Fr-klW"/>
+                            <constraint firstItem="IhJ-Pa-6iS" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="o8l-gc-92O"/>
+                            <constraint firstItem="9YB-5R-1th" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="uUw-34-UUu"/>
+                            <constraint firstItem="Cx6-U1-1x4" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="xqu-er-TpM"/>
+                            <constraint firstItem="53V-6r-pNb" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="y1t-h0-BET"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="topBackBtn" destination="Cx6-U1-1x4" id="kIr-Ms-Ff0"/>
+                        <outlet property="widthTopBtnContraints" destination="LT9-hZ-hGe" id="ytx-B1-mT2"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-79.200000000000003" y="102.99850074962519"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="SlideShow" width="174" height="200"/>
+        <image name="Walkthough" width="175" height="196"/>
+        <image name="backBtnImg" width="25" height="27"/>
+        <image name="background" width="568" height="320"/>
+        <image name="footer" width="568" height="40"/>
+        <image name="nextBtn" width="36" height="27"/>
+        <image name="previousBtn" width="33" height="28"/>
+    </resources>
 </document>

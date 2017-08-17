@@ -8,6 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		4647E00B7B5C985E320E24C9 /* Pods_OneTechAsia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6360A6EE8559D909BD92E47 /* Pods_OneTechAsia.framework */; };
+		AE3629BB1F45969B00AED4D7 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3629BA1F45969B00AED4D7 /* Utility.swift */; };
+		AE3629C91F459DE600AED4D7 /* KozGoPr0.otf in Resources */ = {isa = PBXBuildFile; fileRef = AE3629BD1F459DE600AED4D7 /* KozGoPr0.otf */; };
+		AE3629CA1F459DE600AED4D7 /* KozGoPr2.otf in Resources */ = {isa = PBXBuildFile; fileRef = AE3629BE1F459DE600AED4D7 /* KozGoPr2.otf */; };
+		AE3629CB1F459DE600AED4D7 /* KozGoPr4.otf in Resources */ = {isa = PBXBuildFile; fileRef = AE3629BF1F459DE600AED4D7 /* KozGoPr4.otf */; };
+		AE3629CC1F459DE600AED4D7 /* KozGoPr6.otf in Resources */ = {isa = PBXBuildFile; fileRef = AE3629C01F459DE600AED4D7 /* KozGoPr6.otf */; };
+		AE3629CD1F459DE600AED4D7 /* KozGoPr6N-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = AE3629C11F459DE600AED4D7 /* KozGoPr6N-Bold.otf */; };
+		AE3629CE1F459DE600AED4D7 /* KozGoPr6N-ExtraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = AE3629C21F459DE600AED4D7 /* KozGoPr6N-ExtraLight.otf */; };
+		AE3629CF1F459DE600AED4D7 /* KozGoPr6N-Heavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = AE3629C31F459DE600AED4D7 /* KozGoPr6N-Heavy.otf */; };
+		AE3629D01F459DE600AED4D7 /* KozGoPr6N-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = AE3629C41F459DE600AED4D7 /* KozGoPr6N-Light.otf */; };
+		AE3629D11F459DE600AED4D7 /* KozGoPr6N-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = AE3629C51F459DE600AED4D7 /* KozGoPr6N-Medium.otf */; };
+		AE3629D21F459DE600AED4D7 /* KozGoPr6N-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = AE3629C61F459DE600AED4D7 /* KozGoPr6N-Regular.otf */; };
+		AE3629D31F459DE600AED4D7 /* KozGoPr8.otf in Resources */ = {isa = PBXBuildFile; fileRef = AE3629C71F459DE600AED4D7 /* KozGoPr8.otf */; };
+		AE3629D41F459DE600AED4D7 /* KozGoPrA.otf in Resources */ = {isa = PBXBuildFile; fileRef = AE3629C81F459DE600AED4D7 /* KozGoPrA.otf */; };
+		AE3629D61F45AD5900AED4D7 /* Ads.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3629D51F45AD5900AED4D7 /* Ads.swift */; };
 		AE45EE421F450DE800915152 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE45EE411F450DE800915152 /* AppDelegate.swift */; };
 		AE45EE441F450DE800915152 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE45EE431F450DE800915152 /* ViewController.swift */; };
 		AE45EE471F450DE800915152 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE45EE451F450DE800915152 /* Main.storyboard */; };
@@ -20,6 +34,20 @@
 /* Begin PBXFileReference section */
 		3B725CC32DE534DBEFC10E20 /* Pods-OneTechAsia.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneTechAsia.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OneTechAsia/Pods-OneTechAsia.debug.xcconfig"; sourceTree = "<group>"; };
 		45B5273CAC1DCC8D3BC54B20 /* Pods-OneTechAsia.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneTechAsia.release.xcconfig"; path = "Pods/Target Support Files/Pods-OneTechAsia/Pods-OneTechAsia.release.xcconfig"; sourceTree = "<group>"; };
+		AE3629BA1F45969B00AED4D7 /* Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		AE3629BD1F459DE600AED4D7 /* KozGoPr0.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = KozGoPr0.otf; sourceTree = "<group>"; };
+		AE3629BE1F459DE600AED4D7 /* KozGoPr2.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = KozGoPr2.otf; sourceTree = "<group>"; };
+		AE3629BF1F459DE600AED4D7 /* KozGoPr4.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = KozGoPr4.otf; sourceTree = "<group>"; };
+		AE3629C01F459DE600AED4D7 /* KozGoPr6.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = KozGoPr6.otf; sourceTree = "<group>"; };
+		AE3629C11F459DE600AED4D7 /* KozGoPr6N-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KozGoPr6N-Bold.otf"; sourceTree = "<group>"; };
+		AE3629C21F459DE600AED4D7 /* KozGoPr6N-ExtraLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KozGoPr6N-ExtraLight.otf"; sourceTree = "<group>"; };
+		AE3629C31F459DE600AED4D7 /* KozGoPr6N-Heavy.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KozGoPr6N-Heavy.otf"; sourceTree = "<group>"; };
+		AE3629C41F459DE600AED4D7 /* KozGoPr6N-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KozGoPr6N-Light.otf"; sourceTree = "<group>"; };
+		AE3629C51F459DE600AED4D7 /* KozGoPr6N-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KozGoPr6N-Medium.otf"; sourceTree = "<group>"; };
+		AE3629C61F459DE600AED4D7 /* KozGoPr6N-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KozGoPr6N-Regular.otf"; sourceTree = "<group>"; };
+		AE3629C71F459DE600AED4D7 /* KozGoPr8.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = KozGoPr8.otf; sourceTree = "<group>"; };
+		AE3629C81F459DE600AED4D7 /* KozGoPrA.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = KozGoPrA.otf; sourceTree = "<group>"; };
+		AE3629D51F45AD5900AED4D7 /* Ads.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ads.swift; sourceTree = "<group>"; };
 		AE45EE3E1F450DE800915152 /* OneTechAsia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OneTechAsia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE45EE411F450DE800915152 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AE45EE431F450DE800915152 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -44,6 +72,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AE3629B91F45968600AED4D7 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				AE3629BA1F45969B00AED4D7 /* Utility.swift */,
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
+		AE3629BC1F459DC800AED4D7 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				AE3629BD1F459DE600AED4D7 /* KozGoPr0.otf */,
+				AE3629BE1F459DE600AED4D7 /* KozGoPr2.otf */,
+				AE3629BF1F459DE600AED4D7 /* KozGoPr4.otf */,
+				AE3629C01F459DE600AED4D7 /* KozGoPr6.otf */,
+				AE3629C11F459DE600AED4D7 /* KozGoPr6N-Bold.otf */,
+				AE3629C21F459DE600AED4D7 /* KozGoPr6N-ExtraLight.otf */,
+				AE3629C31F459DE600AED4D7 /* KozGoPr6N-Heavy.otf */,
+				AE3629C41F459DE600AED4D7 /* KozGoPr6N-Light.otf */,
+				AE3629C51F459DE600AED4D7 /* KozGoPr6N-Medium.otf */,
+				AE3629C61F459DE600AED4D7 /* KozGoPr6N-Regular.otf */,
+				AE3629C71F459DE600AED4D7 /* KozGoPr8.otf */,
+				AE3629C81F459DE600AED4D7 /* KozGoPrA.otf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
 		AE45EE351F450DE800915152 = {
 			isa = PBXGroup;
 			children = (
@@ -65,6 +120,8 @@
 		AE45EE401F450DE800915152 /* OneTechAsia */ = {
 			isa = PBXGroup;
 			children = (
+				AE3629BC1F459DC800AED4D7 /* Fonts */,
+				AE3629B91F45968600AED4D7 /* Helper */,
 				AE45EE581F450F3600915152 /* Manager */,
 				AE45EE551F450F0A00915152 /* Controller */,
 				AE45EE541F450F0400915152 /* View */,
@@ -82,6 +139,7 @@
 			isa = PBXGroup;
 			children = (
 				AE45EE5B1F4510B000915152 /* ListAds.swift */,
+				AE3629D51F45AD5900AED4D7 /* Ads.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -189,9 +247,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE3629CC1F459DE600AED4D7 /* KozGoPr6.otf in Resources */,
 				AE45EE4C1F450DE800915152 /* LaunchScreen.storyboard in Resources */,
+				AE3629CF1F459DE600AED4D7 /* KozGoPr6N-Heavy.otf in Resources */,
+				AE3629D21F459DE600AED4D7 /* KozGoPr6N-Regular.otf in Resources */,
+				AE3629CE1F459DE600AED4D7 /* KozGoPr6N-ExtraLight.otf in Resources */,
 				AE45EE491F450DE800915152 /* Assets.xcassets in Resources */,
 				AE45EE471F450DE800915152 /* Main.storyboard in Resources */,
+				AE3629D01F459DE600AED4D7 /* KozGoPr6N-Light.otf in Resources */,
+				AE3629D41F459DE600AED4D7 /* KozGoPrA.otf in Resources */,
+				AE3629CA1F459DE600AED4D7 /* KozGoPr2.otf in Resources */,
+				AE3629C91F459DE600AED4D7 /* KozGoPr0.otf in Resources */,
+				AE3629D11F459DE600AED4D7 /* KozGoPr6N-Medium.otf in Resources */,
+				AE3629CB1F459DE600AED4D7 /* KozGoPr4.otf in Resources */,
+				AE3629CD1F459DE600AED4D7 /* KozGoPr6N-Bold.otf in Resources */,
+				AE3629D31F459DE600AED4D7 /* KozGoPr8.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +320,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE3629D61F45AD5900AED4D7 /* Ads.swift in Sources */,
+				AE3629BB1F45969B00AED4D7 /* Utility.swift in Sources */,
 				AE45EE5A1F450F4700915152 /* APIManager.swift in Sources */,
 				AE45EE441F450DE800915152 /* ViewController.swift in Sources */,
 				AE45EE421F450DE800915152 /* AppDelegate.swift in Sources */,

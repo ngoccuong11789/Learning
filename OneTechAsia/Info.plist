@@ -2,6 +2,21 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>UIAppFonts</key>
+	<array>
+		<string>KozGoPr0.otf</string>
+		<string>KozGoPr2.otf</string>
+		<string>KozGoPr4.otf</string>
+		<string>KozGoPr6.otf</string>
+		<string>KozGoPr6N-Bold.otf</string>
+		<string>KozGoPr6N-ExtraLight.otf</string>
+		<string>KozGoPr6N-Heavy.otf</string>
+		<string>KozGoPr6N-Light.otf</string>
+		<string>KozGoPr6N-Medium.otf</string>
+		<string>KozGoPr6N-Regular.otf</string>
+		<string>KozGoPr8.otf</string>
+		<string>KozGoPrA.otf</string>
+	</array>
 	<key>NSAppTransportSecurity</key>
 	<dict>
 		<key>NSAllowsArbitraryLoads</key>
